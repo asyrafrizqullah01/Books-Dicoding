@@ -22,3 +22,7 @@ Manage your reading list with ease! This project allows you to keep track of boo
    ```bash
    git clone https://github.com/asyrafrizqullah01/Books-Dicoding.git
    cd book-management
+
+## Author
+
+![Muh Asyraf Rizqullah (instagram)](https://www.instagram.com/asyraf.rizqullah/?hl=en)

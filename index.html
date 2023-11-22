@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <title>Book Management Dicoding</title>
+</head>
+
+<body>
+    <header>
+        <h1>Book Management Dicoding</h1>
+        <img src="https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/original/commons/new-ui-logo.png"
+            alt="Dicoding Logo">
+        <div>
+        </div>
+
+
+    </header>
+    <main>
+        <button id="darkModeToggle">
+            <i id="darkModeIcon" class="fas fa-moon"></i>
+            Dark Mode
+        </button>
+        <section id="addBookSection">
+            <h2>Add New Book</h2>
+            <label for="bookTitle">Title:</label>
+            <input type="text" id="bookTitle" placeholder="Enter book title">
+
+            <label for="author">Author:</label>
+            <input type="text" id="author" placeholder="Enter author">
+
+            <label for="year">Year:</label>
+            <input type="text" id="year" placeholder="Enter year">
+
+            <label for="bookStatus">Status:</label>
+            <select id="bookStatus">
+                <option value="unfinished">Unfinished reading</option>
+                <option value="finished">Finished reading</option>
+            </select>
+
+            <button id="addBookBtn">Add Book</button>
+        </section>
+
+
+        <section id="searchSection">
+            <h2>Search Books</h2>
+            <div class="input-group mb-3">
+                <label class="sr-only" for="searchInput">Search:</label>
+                <input type="text" class="form-control" id="searchInput" placeholder="Enter search book">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="searchButton">Search</button>
+                </div>
+            </div>
+            <ul id="searchResults"></ul>
+        </section>
+
+
+        <section id="bookshelves">
+            <div id="unfinishedShelf" class="bookshelf">
+                <h2>Unfinished reading</h2>
+                <ul id="unfinishedList"></ul>
+            </div>
+            <div id="finishedShelf" class="bookshelf">
+                <h2>Finished reading</h2>
+                <ul id="finishedList"></ul>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://asyrafrizqullah01.github.io/Portofolio/assets/img/portfolio/1.jpg" alt="Logo" />
+                </div>
+                <div class="footer-info">
+                    <h3>Contact Us</h3>
+                    <p>Email: <a href="mailto:asyrafrizqullah01@gmail.com">asyrafrizqullah01@gmail.com</a></p>
+                    <p>Phone: <a href="https://api.whatsapp.com/send?phone=6282296420613">082296420613</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Your Book Management. All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="asset/js/script.js"></script>
+</body>
+
+</html>

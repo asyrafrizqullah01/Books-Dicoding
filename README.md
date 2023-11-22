@@ -20,5 +20,5 @@ Manage your reading list with ease! This project allows you to keep track of boo
 
 1. Clone the repository.
    ```bash
-   git clone https://github.com/your-username/book-management.git
+   git clone https://github.com/asyrafrizqullah01/Books-Dicoding.git
    cd book-management

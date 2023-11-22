@@ -1,6 +1,7 @@
 # Book Management Project
 
-![Book Management](link-to-your-image.png)
+![Book Management](asset/img/1.jpg)
+![Books Dicoding](asset/img/2.jpg)
 
 Manage your reading list with ease! This project allows you to keep track of books you've read and want to read.
 
@@ -13,7 +14,7 @@ Manage your reading list with ease! This project allows you to keep track of boo
 
 ## Demo
 
-[Live Demo](link-to-your-live-demo)
+[Live Demo]([link-to-your-live-demo](https://asyrafrizqullah01.github.io/Books-Dicoding/))
 
 ## Getting Started
 

@@ -25,4 +25,4 @@ Manage your reading list with ease! This project allows you to keep track of boo
 
 ## Author
 
-![Muh Asyraf Rizqullah (instagram)](https://www.instagram.com/asyraf.rizqullah/?hl=en)
+[Muh Asyraf Rizqullah](https://www.instagram.com/asyraf.rizqullah/?hl=en)
